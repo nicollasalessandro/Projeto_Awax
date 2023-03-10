@@ -597,3 +597,66 @@ header {
 .section-price--item-point {
     font-size: 12px;
 }
+
+.premium {
+    background-color: #fff !important;
+    border: 1px solid #ccc;
+}
+
+.premium .section-body {
+    max-width: initial;
+}
+
+.section-premium {
+    overflow: hidden;
+}
+
+.section-premium a {
+    margin-top: 30px;
+}
+
+.section-premium .sliders {
+    width: 1000vw;
+    height: 100%;
+}
+
+.section-premium .slide {
+    width: 1000vw;
+    height: 100%;
+    display: inline-block;
+}
+
+.section-premium .slidearea {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    max-width: 1140px;
+    border-bottom:1px solid #ccc;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.section-premium--left {
+    flex: 1;
+    text-align: right;
+}
+
+.section-premium--right {
+    flex: 1;
+}
+
+.section-premium--item {
+    display: flex;
+}
+
+.section-premium--item img {
+    width:20px;
+    height:20px;
+    margin-right:20px;
+}
+.section-premium--item div {
+    flex:1;
+    color:#999;
+    line-height:20px;
+}
