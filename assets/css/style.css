@@ -691,3 +691,100 @@ header {
 .section-premium .pointer.active {
     background-color:#B28756;
 }
+
+.section-fatos {
+    display: flex;
+}
+
+.section-fato {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+}
+
+.section-fato h3 {
+    color: #B28756;
+    font-size: 45px;
+}
+
+.section-fato-linha {
+    width: 20px;
+    border: 2px solid #999;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.section-fato h4 {
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.section-fato p {
+    margin-top: 15px;
+    color: #999;
+    line-height: 20px;
+}
+
+.section-compartilhar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    color: #999;
+}
+
+.section-compartilhar--legenda {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+
+}
+
+.section-compartilhar--legenda img {
+    margin-right: 10px;
+}
+
+.section-compartilhar--item {
+    font-size: 12x;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.section-compartilhar--icone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    color: #ccc;
+    margin-right: 5px;
+}
+
+.section-compartilhar--icone img {
+    height: 12px;
+}
+
+.section-compartilhar--icone.twitter {
+    background-color: #35d0ff;
+}
+
+.section-compartilhar--icone.linkedin {
+    background-color: #0700b7;
+}
+
+.section-compartilhar--icone.facebook {
+    background-color: #4867aa;
+}
+
+.section-compartilhar--icone.googleplus {
+    background-color: #d64a37;
+}
+
+.section-compartilhar--icone.pinterest {
+    background-color: #df0022;
+}
